@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Egencia">
+  <test thread-count="5" name="Egencia Test Cases" parallel="false" >
+    <classes>
+ 	 <class name="com.aws.bluage.End2End1ARC"/> 
+ 	 <parameter name="testname" value="End2End1ARC"/>  
+ 	 </classes>
+  </test> 
+</suite> <!-- Suite -->
